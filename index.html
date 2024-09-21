@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
+  <script type="text/javascript">
+    function goBackToPreviousPage() {
+        window.history.back(); // Goes back to the previous page
+    }
+</script>
+
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | Tetris</title>
@@ -57,13 +63,13 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/VIDEO WORKING TEST TETRIS.loader.js";
+      var loaderUrl = buildUrl + "/TetrisBAT.loader.js";
       var config = {
-        dataUrl: buildUrl + "/VIDEO WORKING TEST TETRIS.data",
-        frameworkUrl: buildUrl + "/VIDEO WORKING TEST TETRIS.framework.js",
-        codeUrl: buildUrl + "/VIDEO WORKING TEST TETRIS.wasm",
+        dataUrl: buildUrl + "/TetrisBAT.data",
+        frameworkUrl: buildUrl + "/TetrisBAT.framework.js",
+        codeUrl: buildUrl + "/TetrisBAT.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "Bangladesh Awami League",
+        companyName: "Yead Muhammad Ivan",
         productName: "Tetris",
         productVersion: "1.0",
         showBanner: unityShowBanner,
